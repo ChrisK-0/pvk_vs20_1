@@ -3,7 +3,6 @@
 
 class Pages
 {
-
     /**
      * Pages constructor.
      */
@@ -11,7 +10,6 @@ class Pages
     {
         echo 'Pages class is loaded<br>';
     }
-
     public function index(){
         echo 'index method is loaded<br>';
     }

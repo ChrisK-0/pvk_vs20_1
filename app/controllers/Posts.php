@@ -3,12 +3,11 @@
 
 class Posts
 {
-
     /**
      * Posts constructor.
      */
     public function __construct()
     {
-        echo 'Posts class is loeaded<br>';s
+        echo 'Posts class is loaded<br>';
     }
 }
