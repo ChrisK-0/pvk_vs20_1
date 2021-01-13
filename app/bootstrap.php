@@ -1,4 +1,6 @@
 <?php
+//config
+require_once 'config/constants.php';
 // load libraries
-echo 'bootstrap loaded<br>';
 require_once 'libs/Core.php';
+require_once 'libs/Controller.php';
