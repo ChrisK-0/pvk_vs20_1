@@ -12,8 +12,10 @@ class Pages
     }
     public function index(){
         echo 'index method is loaded<br>';
+        $this->view('index');
     }
     public function about(){
         echo 'about method is loaded<br>';
+        $this->view('about');
     }
 }
